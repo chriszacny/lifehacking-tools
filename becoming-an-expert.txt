@@ -1,0 +1,95 @@
+@startuml
+start
+
+if (What Open Gates,\nor Opportunities,\nare available to you\nright now that will\n exercise your \nCraftsmanship and Skills?) then (unknown)
+    fork
+        :Conduct Many Informational Interviews with Humans;
+        fork
+            :Manager;
+        fork again
+            :Mentor(s);
+        fork again
+            :Teammates;
+        fork again
+            :Internal Company References;
+        fork again
+            :Friends, Family, Acquaintences;
+        end merge
+    fork again
+        :Construct a Mindmap / Tree of\n What you are Good At. Here is how;
+        :Pick some Topics;
+        :Put one Topic at the center of the paper.;
+        :Draw Five Lines Radiating from it.;
+        :Write the first five words that come to your mind regarding this topic, no matter how silly.; 
+        :Do not hesitate or think too hard.\nThe goal is to engage your subconscious mind.;
+        :Recursively draw consecutive circles and continue to do this until your "Tree" is Five Levels deep.;
+        :Take these outermost circles and consider them as experimental research/work items.;
+        :Repeat as necessary with other Topics, or existing Topics.;
+    fork again
+        :Do a Two Week Journaling Exercise; 
+        :Rate everythingyou work from 1-10\n in Engagement, Energy.;
+        :Also mark down if you enter a "Flow"\n state where you forget you are working.;
+        :Consider the items you enter Flow\nand score high on Engagement and Energy\nas further Opportunities;
+    end merge
+endif
+
+repeat
+    if (Have you Constructed Any Work Items from Opportunities?) then(no)
+        :Take one of the most promising Opportunities;
+        if (Will this Opportunity develop \nRare and Valuable Skills?) then(no)
+            :Pick another one;
+            end
+        endif
+        if (Will people pay for the eventual \noutput of this Opportunity?) then(no)
+            :Pick another one;
+            end
+        endif
+        if (Is this Opportunity in the \nAdjacent Possible / \nRight beyond the Cutting Edge?) then(no)
+            :Pick another one;
+            end
+        endif
+        if (Will this Opportunity force you to work with people you really dislike?) then(yes)
+            :Pick another one;
+            end
+        endif
+        if (Will this Opportunity violate your personal mission or actively harm the world?) then(yes)
+            :Pick another one;
+            end
+        endif
+        if (Do you have pre-requisite knowledge for this Work Item?) then(no)
+            :Build Pre-requisite Knowledge as Needed\n (Books, Tutorials, Academic Papers, etc.);
+            :Sometimes this pre-requisite knowledge\n can be very difficult (i.e. Math Proofs).;
+        endif
+
+        :Construct a work item that will take no longer than a week or two.;
+    endif
+
+    if (Define "Good"\nDo your Work Items have \nClear, Measuarable goals?) then(no)
+        :Create SMART Goals;
+        fork
+            :S - Specific;
+        fork again
+            :M - Measureable;
+        fork again
+            :A - Attainable;
+        fork again
+            :R - Relevant;
+        fork again
+            :T - Time Bound;
+        end merge
+        :Create a Definition of Done.;
+    endif
+
+    :Work on your Work Items.;
+
+    :Stretch and Destroy with Deep Work and Deliberate Practice. It should feel hard and uncomfortable.;
+    :Exercise Patience as Needed. Remember to Eat, Do Phyical Exercise, and Sleep.;
+    :Collect feedback, even if quality of your work seems "bad";
+
+repeat while (needs more work?) is (yes)
+->no;
+
+:Consider Next Steps\nProductization,\n Open Sourcing, etc.;
+:Repeat all of the above as needed.;
+stop
+@enduml

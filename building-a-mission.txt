@@ -1,0 +1,71 @@
+@startuml
+start
+
+if (Do you Have a Mission?) then (no)
+  fork
+    :See becoming-an-expert; 
+  fork again
+    :Work on many small experiments.;
+  fork again
+    :Try to get to the Adjacent Possible. \nThis can potentially take \n10+ years if you are inexperienced.;
+  end merge
+  end
+endif
+
+if (Is your Mission allowing you to acquire and develop \nCareer Capital and Deliberate Practice?) then (no)
+  :See becoming-an-expert;
+  :Develop Another Mission;
+  end
+endif
+
+if (Does your Mission require the acquisition of additional career capital?) then (yes)
+    fork
+        :See becoming-an-expert;
+        :Aim at doing lots of Deliberate Practice and Deep Work;
+    fork again
+        :Build Pre-requisite Knowledge as Needed\n (Books, Tutorials, Academic Papers, etc.);
+        :Sometimes this pre-requisite knowledge\n can be very difficult (i.e. Math Proofs).;
+    fork again
+        :Try to get to the Adjacent Possible. \nThis can potentially take \n10+ years if you are inexperienced.;
+    end merge
+    end
+endif
+
+if (Does your Mission reside in the Adjacent Possible / right beyond the Cutting Edge?) then (no)
+  :See becoming-an-expert;
+  :Develop Another Mission;
+  end
+endif
+
+if (Is the Misson composed of small concrete experiments that return concrete feedback?) then (no)
+  :See becoming-an-expert;
+  end
+endif
+
+if (Do you inhenrently believe in what you are doing, vs being convinced and then convincing others of someone elses' idea?) then (no)
+  :Develop Another Mission;
+  end
+endif
+
+if (Are you being true to yourself and doing your own original work?) then (no)
+  :Develop Another Mission;
+  end
+endif
+
+if (Is the Mission being marketed well? Are people remarking on it?) then (no)
+  :TODO - Marketing is HARD;
+  end
+endif
+
+if (Are people willing to pay for this mission, either with time or money?) then (no)
+  :Develop Another Mission;
+  end
+endif
+
+if (Are you working on your Mission - Deliberate Practice and Deep Work, or in the Cloud of External Distractions -Email, Slack, Meetings, etc?) then (Cloud of External Distractions)
+  :Look at executive-function-checklist - TODO;
+  end
+endif
+
+stop
+@enduml
