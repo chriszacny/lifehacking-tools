@@ -10,6 +10,8 @@ Therefore, I have created several flowcharts that I find useful, professionaly a
 
 Feel free to use them yourself and modify them for your needs, but I'd recommend reading through the References below, so you can develop your own personal flowcharts.
 
+**TIP: Some of these flowcharts are large - Right Click and Open in New Tab.**
+
 ## Building the flowcharts
 
 * Install Docker
