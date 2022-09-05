@@ -40,7 +40,7 @@ repeat
             :Pick another one;
             end
         endif
-        if (Will people pay for the eventual \noutput of this Opportunity?) then(no)
+        if (Will people pay money for the eventual \noutput of this Opportunity?) then(no)
             :Pick another one;
             end
         endif
