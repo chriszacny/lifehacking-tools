@@ -25,7 +25,7 @@ Feel free to use them yourself and modify them for your needs, but I'd recommend
     * [How to Build a High Level Mission](#how-to-build-a-high-level-mission)
 * [Software and Product Engineering](#software-and-product-engineering)
     * [Legacy Code Strategic Checklist](#legacy-code-strategic-checklist)
-    * [Product Management Overview Map aka "Toolkit for Maximizing Successful Implementations"](#product-management-overview-map-aka-toolkit-for-managing-successful-implementations)
+    * [Product Management Overview Map aka "Toolkit for Maximizing Successful Implementations"](#product-management-overview-map-aka-toolkit-for-maximizing-successful-implementations)
     * [Code Quality Checklist](#code-quality-checklist)
     * [Production Checklist](#production-checklist)
 * [Building the flowcharts](#building-the-flowcharts)
@@ -62,7 +62,7 @@ TODO - "Deep Work"
 
 TODO - "Working Effectively with Legacy Code"
 
-### Product Management Overview Map aka "Toolkit for Managing Successful Implementations"
+### Product Management Overview Map aka "Toolkit for Maximizing Successful Implementations"
 
 TODO - A.C's Deck and "Inspired" by Cagan
 
