@@ -40,7 +40,7 @@ Feel free to use them yourself and modify them for your needs, but I'd recommend
 Image sourced from Cohen, Richard K. *ADDitude Magazine*. 
 ### Finding Quality Sources of Information
 
-TODO - this is almost a skill / full time job in and of itself... the modern librarian!
+TODO - this is a skill / full time job(s) in and of itself... the modern librarian!
 
 ## Becoming An Expert
 
